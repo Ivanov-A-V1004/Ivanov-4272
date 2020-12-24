@@ -18,6 +18,7 @@ class Square extends Line implements EquationInterface
             return parent::line($b, $c);
         }
 
+        MyLog::log("This is a square equation!\n\r");
         $d = $this->desc($a, $b, $c);
 
           if ($d > 0) {
@@ -28,6 +29,7 @@ class Square extends Line implements EquationInterface
         if ($d === 0) {
             return $this->x = array ((-$b )/ (2 * $a));
         }
+        throw new IvanovException("This square equation does not exist!");
 
     }
 }
