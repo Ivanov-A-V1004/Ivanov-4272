@@ -15,6 +15,7 @@ require_once 'Ivanov/Square.php';
 require_once 'Ivanov/IvanovException.php';
 
 try {
+	MyLog::log("Версия программы : ".trim(file_get_contents('version')));
     echo "Enter 3 numbers\n\r";
 
     $a = (int)readline();
