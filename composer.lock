@@ -1,0 +1,76 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "3025c3a018bcd2a1a263cc44f606bd08",
+    "packages": [
+        {
+            "name": "ivanov-a-v1004/ivanov-library",
+            "version": "2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Ivanov-A-V1004/Ivanov-library.git",
+                "reference": "a20bbd02380d74d444409c1eaadb9a1eb212c5b0"
+            },
+            "require": {
+                "rok9ru/trpo-core": "2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ivanov\\": "Ivanov"
+                }
+            },
+            "license": [
+                "-"
+            ],
+            "authors": [
+                {
+                    "name": "ivanov alexander",
+                    "email": "sawa.ivanov1004@mail.ru"
+                }
+            ],
+            "description": "ivanov",
+            "time": "2021-03-20T15:14:58+00:00"
+        },
+        {
+            "name": "rok9ru/trpo-core",
+            "version": "2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rok9ru/trpo-core",
+                "reference": "fd341399677df9ed17a71e4abb9230277ede5395"
+            },
+            "require": {
+                "php": "^7.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "core\\": "core"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Sleepplayer",
+                    "email": "rok_9@mail.ru"
+                }
+            ],
+            "description": "Project for lesson subject \"TRPO\" test project",
+            "time": "2021-01-13T12:08:11+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "ext-readline": "*"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

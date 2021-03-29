@@ -6,15 +6,13 @@ use Ivanov\Square;
 use Ivanov\MyLog;
 use Ivanov\IvanovException;
 
-require_once 'core/LogInterface.php';
-require_once 'core/LogAbstract.php';
-require_once 'core/EquationInterface.php';
-require_once 'Ivanov/Line.php';
-require_once 'Ivanov/MyLog.php';
-require_once 'Ivanov/Square.php';
-require_once 'Ivanov/IvanovException.php';
+require_once __DIR__ . './vendor/autoload.php';
 
 try {
+    if(!is_dir("log")) {
+        mkdir("log", 0700);
+    }
+
 	MyLog::log("Версия программы : ".trim(file_get_contents('version')));
     echo "Enter 3 numbers\n\r";
 

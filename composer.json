@@ -1,0 +1,39 @@
+{
+  "name": "ivanov-a-v1004/ivanov",
+  "description": "project",
+  "type": "project",
+  "license": "-",
+  "authors": [
+    {
+      "name": "ivanov alexander",
+	  "email": "sawa.ivanov1004@mail.ru"
+    }
+  ],
+  
+
+  "minimum-stability": "dev",
+
+	"scripts": {
+    "post-install-cmd": [
+        "git symbolic-ref --short -q HEAD>version"
+    ]
+  },
+  
+  "require": {
+    "ivanov-a-v1004/ivanov-library": "2.0",
+    "ext-readline": "*"
+  },
+
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/rok9ru/trpo-core"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/Ivanov-A-V1004/Ivanov-library.git"
+    }
+  ]
+  
+}
+
