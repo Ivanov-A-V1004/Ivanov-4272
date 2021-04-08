@@ -4,18 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3025c3a018bcd2a1a263cc44f606bd08",
+    "content-hash": "36287f0344f9e2e0c37a03641211b535",
     "packages": [
         {
             "name": "ivanov-a-v1004/ivanov-library",
-            "version": "2.0",
+            "version": "2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Ivanov-A-V1004/Ivanov-library.git",
-                "reference": "a20bbd02380d74d444409c1eaadb9a1eb212c5b0"
+                "reference": "cb197ee0342b8ba9d2aadd0b765d208db4730465"
             },
             "require": {
                 "rok9ru/trpo-core": "2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9"
             },
             "type": "library",
             "autoload": {
@@ -33,7 +36,7 @@
                 }
             ],
             "description": "ivanov",
-            "time": "2021-03-20T15:14:58+00:00"
+            "time": "2021-04-08T20:40:18+00:00"
         },
         {
             "name": "rok9ru/trpo-core",
