@@ -20,7 +20,7 @@
   },
   
   "require": {
-    "ivanov-a-v1004/ivanov-library": "2.0",
+    "ivanov-a-v1004/ivanov-library": "^2.0",
     "ext-readline": "*"
   },
 
